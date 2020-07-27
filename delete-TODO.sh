@@ -16,5 +16,3 @@ echo Write filename':'
 read filename
 
 grep -v "//TODO" $filename > temp && mv temp $filename
-
-grep -v "//todo" $filename > temp && mv temp $filename  
